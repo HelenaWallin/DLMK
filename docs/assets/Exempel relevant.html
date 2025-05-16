@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<title>Kulturgravar på Lilla Malma kyrkogård</title>
+<style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+
+ 
+    input[type="radio"] {
+      display: none;
+    }
+
+    label {
+      padding: 10px 20px;
+      background: #eee;
+      cursor: pointer;
+      margin-right: 5px;
+      border-radius: 5px 5px 0 0;
+    }
+
+    input[type="radio"]:checked + label {
+      background: #ccc;
+      font-weight: bold;
+    }
+
+    .tab-content {
+      display: none;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-top: none;
+    }
+
+    #tab1:checked ~ #content1,
+    #tab2:checked ~ #content2,
+    #tab3:checked ~ #content3,
+    #tab4:checked ~ #content4 {
+      display: block;
+    }
+
+    .photo-section {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .photo-single {
+      text-align: center;
+    }
+
+    .photo-single h4 {
+      margin-bottom: 10px;
+    }
+
+    .photo-single img {
+      width: 45%;
+      max-width: 300px;
+      height: auto;
+      object-fit: cover;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      margin: 5px;
+    }
+
+    .photo-single p {
+      max-width: 600px;
+      margin: 10px auto;
+    }
+
+   
+    .copyright {
+      font-size: 12px;
+      text-align: center;
+      margin-top: 30px;
+      color: #555;
+    }
+
+  
+    .header-content {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header-content h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .header-content img {
+      width: 70%;
+      max-width: 600px;
+      margin-bottom: 10px;
+    }
+
+    .header-content .caption {
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    z-index: 1000;}
+body {
+    padding-top: 60px;
+}
+  </style>
+    </head>
+    <body><div class="fixed-header">Kulturgravar på Lilla Malma kyrkogård</div>
+        
+    
+<input type="radio" id="tab1" name="tabgroup" checked>
+<label for="tab1">Startsida</label>
+            
+<input type="radio" id="tab2" name="tabgroup">
+<label for="tab2">Fotografier av gravarna</label>
+                
+<input type="radio" id="tab3" name="tabgroup">
+<label for="tab3">Personbeskrivningar av de avlidna</label>
+                    
+
+                        
+                      
+                      
+                      
+                      
+    <div id="content1" class="tab-content">
+ <div class="header-content">
+ <h1>Karta över de digitaliserade kulturgravarna</h1>
+<img src="https://via.placeholder.com/600x400" alt="Gravkarta" />
+<p class="caption">Bildbeskrivning: En vy över var gravarna är lokaliserade på kyrkogården i Malmköping.</p>
+    
+    
+  <h2>Information om projektet</h2>
+<p>Urvalet av kulturgravarna är baserat på tidigare kyrkogårdsvaktmästare Rolf Oskarssons skriftliga samling från år 2003. 
+Ur samlingen har tolv kulturgravar valts ut vilka har fotograferats och transkriberats. Oskarssons anteckningar har även dessa transkriberats.</p>
+</div></div>
+ 
+ 
+ 
+ 
+
+<div id="content2" class="tab-content">
+ <h2>Fotografier av gravarna</h2>
+<div class="photo-section">
+                                
+                        
+                        
+ <div class="photo-single">
+           <h4><a href="#grav1" onclick="selectTab('tab3')">Grav 367-368</a></h4>
+          <img src="https://via.placeholder.com/300x200" alt="Bild 1">
+  <img src="https://via.placeholder.com/300x200" alt="Bild 2">
+       <p><em>Transkribering:</em> Texten som står på gravstenen.</p>
+                                </div>
+                                
+<div class="photo-single">
+<h4><a href="#grav2" onclick="selectTab('tab3')">Grav 376-377</a></h4>
+<img src="https://via.placeholder.com/300x200" alt="Bild 3">
+<img src="https://via.placeholder.com/300x200" alt="Bild 4">
+<p><em>Transkribering:</em> Texten som står på gravstenen.</p>
+</div>
+                       
+                       
+ <div class="photo-single">
+<h4><a href="#grav3" onclick="selectTab('tab3')">Grav 404-408</a></h4>
+<img src="https://via.placeholder.com/300x200" alt="Bild 5">
+<img src="https://via.placeholder.com/300x200" alt="Bild 6">
+<p><em>Transkribering:</em> Texten som står på gravstenen.</p>
+</div>
+                                
+<div class="photo-single">
+ <h4><a href="#grav4" onclick="selectTab('tab3')">Grav 445-448</a></h4>
+  <img src="https://via.placeholder.com/300x200" alt="Bild 7">
+  <img src="https://via.placeholder.com/300x200" alt="Bild 8">
+  <p><em>Transkribering:</em> Texten som står på gravstenen.</p>
+</div>
+                                
+                                
+<div class="photo-single">
+<h4><a href="#grav5" onclick="selectTab('tab3')">Grav 466-467</a></h4>
+ <img src="https://via.placeholder.com/300x200" alt="Bild 9">
+ <img src="https://via.placeholder.com/300x200" alt="Bild 10">
+<p><em>Transkribering:</em> Texten som står på gravstenen</p>
+</div>
+                    
+                    
+  <div class="photo-single">
+ <h4><a href="#grav6" onclick="selectTab('tab3')">Grav 670-671</a></h4>
+ <img src="https://via.placeholder.com/300x200" alt="Bild 11">
+  <img src="https://via.placeholder.com/300x200" alt="Bild 12">
+   <p><em>Transkribering:</em> Texten som står på gravstenen.</p>
+   </div>
+                                
+<div class="photo-single">
+<h4><a href="#grav7" onclick="selectTab('tab3')">Grav 676-677</a></h4>
+<img src="https://via.placeholder.com/300x200" alt="Bild 13">
+ <img src="https://via.placeholder.com/300x200" alt="Bild 14">
+<p><em>Transkribering:</em> Texten som står på gravstenen.</p>
+ </div>
+                                
+<div class="photo-single">
+<h4><a href="#grav8" onclick="selectTab('tab3')">Grav 723-724</a></h4>
+ <img src="https://via.placeholder.com/300x200" alt="Bild 15">
+<img src="https://via.placeholder.com/300x200" alt="Bild 16">
+<p><em>Transkribering:</em> Texten som står på gravstenen.</p>
+</div>
+               
+               
+  <div class="photo-single">
+ <h4><a href="#grav9" onclick="selectTab('tab3')">Grav 912-913</a></h4>
+ <img src="https://via.placeholder.com/300x200" alt="Bild 17">
+<img src="https://via.placeholder.com/300x200" alt="Bild 18">
+<p><em>Transkribering:</em> Texten som står på gravstenen.</p>
+</div>
+                                
+ <div class="photo-single">
+ <h4><a href="#grav10" onclick="selectTab('tab3')">Grav 1018-1031</a></h4>
+ <img src="https://via.placeholder.com/300x200" alt="Bild 19">
+<img src="https://via.placeholder.com/300x200" alt="Bild 20">
+<p><em>Transkribering:</em> Texten som står på gravstenen.</p>
+</div>
+     
+     
+ <div class="photo-single">
+ <h4><a href="#grav11" onclick="selectTab('tab3')">Minnesskylt</a></h4>
+  <img src="https://via.placeholder.com/300x200" alt="Bild 21">
+ <img src="https://via.placeholder.com/300x200" alt="Bild 22">
+  <p><em>Transkription:</em> Texten som står på gravstenen. </p>
+</div>
+                                
+ <div class="photo-single">
+ <h4><a href="#grav12" onclick="selectTab('tab3')">Gravkulle</a></h4>
+<img src="https://via.placeholder.com/300x200" alt="Bild 23">
+<img src="https://via.placeholder.com/300x200" alt="Bild 24">
+</div>
+                                
+</div>
+</div>
+                        
+                        
+                        
+                        
+ <div id="content3" class="tab-content">
+<h2>Personbeskrivningar av de avlidna</h2>
+<h3>Transkriberingar utifrån f.d kyrkovaktmästare Rolf Oskarssons anteckningar.</h3>
+     <div id="grav1"><h3><a href="#grav1" onclick="selectTab('tab2')">Grav 367-368</a></h3>
+ Grav nr<br> <u> 367-368 O.W WAESSTRÖM </u> 
+ <br>  *1816 † 1875
+ <br> Ordningsman i Malmköping 1860-1875
+Efter att Malmköpings grundare, Sörmlands Regementes chef Gustav Adolf von Siegroth
+och kronolänsman och postmästaren Jacob Falleij gått ur tiden 1802 resp 1813, saknade 
+Malmköping någon verklig kommunal ledare. Men 1829 tillsattes efter många uppvaktningar
+hos myndigheterna en “borgmästare” med titeln ordningsman. Han skulle vara skrivkunnig och 
+sortera under landshövdingen, men valdes av köpingsborna. Han fick fiskala befogenheter med
+kontroll av lagar och förordningar efterföljdes och blev därmed också en hjälp till 
+kronolänsmannen. Han skulle också ansvara för köpingens ekonomi och se till att 
+sockenstämmans fattade beslut blev utförda<br>
+Waesström blev den tredje ordningsmannen i ordningen efter handelsman Ekbom och garvaren Öjer. 
+</div> 
+                            
+                            
+     <div id="grav2"><h3><a href="#grav2" onclick="selectTab('tab2')">Grav 376-377</a></h3>
+<u>Grav nr 376-377
+<br>Postmästaren och apotekaren
+<br>Johan Fredrik Wanström</u><br>
+1788 fick man reguljär postförbindelse mellan Nyköping och Eskilstuna. Då uppstod också behov av ett postkontor i Malmköping. 
+Den nyinflyttande smedfamiljsvallonen från Östergötland, Kronolänsman Jacob Falleij, blev den första som åtog sig jobbet som postmästare i Malmköping, och lät då bygga det röda huset indvid det lilla häktet vid Gustav Adolfs Torg för sitt ämbete. 
+Omkring år 1800 övertog så Johan Fredrik Wanström postmästarsysslan under några år.
+ Men han fick sedermera flera strängar på sin lyra. Förutom titulationerna postmästare och tullinspektör blev han också 1807 Malmköpings första apotekare som inrättades i det som kom att kallas Frendinska Gården, nuvarande Landsvägsgatan 17. Detta Malmköpings första apotek tillkom på begäran från Sörmlands regemente och godsägare i trakten.
+Under 1800-talets senare del flyttades apoteket till Tingsgatan vid Gustav Adolfs Torg.
+I graven ligger också Häradshövding Fredrik Wilhelm Strandberg *1793†1865.
+Men historien om honom är för dagen ej känd.  </div>
+                               
+                               
+                            
+     <div id="grav3">  <h3><a href="#grav3" onclick="selectTab('tab2')">Grav 404-408</a></h3>
+<u>Grav nr 404-408 Öjer<br>
+Garvaren Gustav Öjer med titeln ordningsman på 1800-talet</u><br>
+Århundradets kommunala ledare hade den titeln. Skulle vara skrivkunnig och sortera under landshövdingen men valdes av Malmköpingsborna. Han fick också fiskala befogenheter med kontroll av att lagar och förordningar efterföljdes och blev därmed också en hjälp till kronolänsmännen. 
+Senare släktet Öjer har på 1900-talet haft manufaktur, mode och kortvaruhandel i köpingen. 
+ I gravboken finns följande gravsatta inskrivna: <br>
+Johan Sigfrid Albin Öjer, fotograv †1926 <br>
+Anna Fanny Armida, handlare †1932<br>
+ Signe Linnea, handlare, gård 34 †1944 
+</div>
+                            
+                            
+     <div id="grav4"><h3><a href="#grav4" onclick="selectTab('tab2')">Grav 445-448</a></h3>
+<u>445-448 Grosshandlare Carl Lennmalm *1845†1921</u><br>
+                                        Mäktig företagare i Malmköping och Sparreholm. Bedrev handel med spannmål och div. andra
+                                        varor. Ägde flera stora fastigheter i köpingen bl.a. hotell Fenix.
+                                        Var också en drivande kommunalpolitiker 
+                                            kommunalfullmäktigeordförande ca 1900-1919 Öppnade innan telefonen kom egen 
+                                            telefonlinje till sin företagsetablering vid Sparreholm på platsen vid nuvarande
+                                            bilverkstad. (En strategisk plats för dåtida järnvägstransporter) </div>
+                         
+                         
+     <div id="grav5"><h3><a href="#grav5" onclick="selectTab('tab2')">Grav 466-467</a></h3>
+                                <u>Grav nr 466-467
+                                        Ordningsmannen Victor Frendin *1833†1900</u><br>
+                              
+                                    Från början militär och bodde vid Häckelsta. Blev ordningsman 1877 och kommunalpamp “utan beslutsångest”. Ville bringa ordning och reda i köpingen.
+                                Bland det första han tog itu med var att utse en lykttändare för att hålla köpingen upplyst under den mörka tiden. Uppdraget gick till gårdsinnehafvaren Johan Fredrik Jonsson. Han erhöll 70 öre för varje afton som lyktorna hölls tändare till kl.10. Under marknaden hela nätterna och vid julottan från kl. 5
+                                I sin strävan att upprätthålla ordningen lyckades han 1887 få hjälp med att inrätta den första polistjänsten i Malmköping. Det blev kopparslagare Henrik Forsberg som fick jobbet som extraknäck till sitt kopparslageri. Han erhöll ett årsarvode på 200 kr för att bl.a patrullera två gånger dagligen genom köpingen. 
+                                Att Victor Frendin blev en respektabel man i köpingen märktes vid hans begravning som omgärdades av militärer, musikkår, stängda affärer och alla flaggor på halv stång. 
+                                  På graven stod tidigare två värdefulla urnor som minne från “Frendinska Gården”. Dessa stals tyvärr någon gång under 1900-talet. Två identiska urnor återfanns sedan på en antikauktion i Danmark som antikhandlare Bohmm i Malmköping då ropade in för ett antal tusen kronor. 
+                               
+                               </div>
+                                
+                                
+                                
+     <div id="grav6"><h3><a href="#grav6" onclick="selectTab('tab2')">Grav 670-671</a></h3>
+                                <u> 670-671 Löjtnant Carl Johan Forsberg *1859 †1927</u> <br>
+                                    Kallad Borgmästaren. Tjänstgjorde i landsstormen, dåtidens benämning på civilförsvar.
+                                    Men han kom också att ägna sig åt kommunalt styre. Blev ordningsman efter Victor Frendin och ordförande i municipalstyrelsen. Malmköping var då sedan 1860 en egen kommun i L:a Malma socken, ett s.k. municipalsamhälle med egen kommunalstämma municipalstyrelse (Carl Lennmalm var samtidigt kommunalfullmäktigeordförande för hela L:a malma socken) Ordningsmannabefogenheten med municipalstyrelse levde kvar till 1916, då den ersattes av kommunalnämnd för hela L:a Malma socken. 
+                                    Forsberg var en engagerad man. Förutom ovannämnda blev han också brandchef, bankman, ledamot i kyrkorådet, ordförande i skolstyrelsen mm. Han var en stridens man. Lär ha sagt nån gång på ett sammanträde när det hade uppenbarat sig kvinnfolk med åsikter - Jag ska ta mej fan lära kärringdjävlarna att veta hut! -   
+                             </div>
+                               
+                               
+     <div id="grav7"><h3><a href="#grav7" onclick="selectTab('tab2')">Grav 676-677</a></h3><p> <u> 676-677 Assessor och regementsläkare Axel Hedman †1874</u> <br>
+                                        Regementsläkare vid Sörmlands Regementes övningsplats vid Malma Hed i början på 1800-talet. 
+                                        En provisorisk sjukstuga fanns då i en av ladorna nere vid Rusthållet. Graven är den äldsta bevarade vid L:a 
+                                        Malma kgd, med reservation för grav nr 376-377 med postmästare Vanström där dödsåret är okänt. </p>
+                                
+                            </div>
+                               
+                               
+     <div id="grav8"><h3><a href="#grav8" onclick="selectTab('tab2')">Grav 723-724</a></h3>
+                               <u>723-724 Folkskolläraren och organisten<br>
+                                            Per August Brolin *1832†1901</u><br>
+                                    Ett historiskt minne i köpingen var “Brolinska villan” som låg vid nuvarande busstation där sedan “Runes kiosk” blev 
+                                    en samlingspunkt och där sedan huset byggdes om till Runebaren och matknekten. När sedan verksamheten upphörde där på
+                                    1990-talet revs hela huset som då bredde plats för en större bussterminal.
+                            </div>
+                               
+                               
+     <div id="grav9"><h3><a href="#grav9" onclick="selectTab('tab2')">Grav 912-913</a> </h3><p><u>912-913 Familjen Jäderholm</u><br>
+                                    Kronolänsman Gustav Jäderholm bodde på och skötte Länsmansgården i Malmköping i 44 år 1833-1877 med hjälp av några drängar och några pigor. Länsmansgården, som var granngård med Gästgivargården, var kronolänsmansgård för Katrineholmsdistriktet under 1700- och 1800-talet.
+                                   De sista åren under Jäderholm tid kom att präglas av dramatik. 1874 fick han anmälan om att två misstänkta individer höllo till i en grotta utanför Malmköping bakom den s.k. trekanten. Det var Gustav Adolf Eriksson Hjert och Conrad Pettersson Lundkvist Tektor som hade kommit till Malmköping nyss frigivna från Långholmen och ute på en längre inbrottsturne. De drömde om att flytta till Amerika, och pengarna därtill skulle de få genom att råna postdiligensen. 
+                                   Vad som sen hände äro allom känt. Efter att Jäderholm och landsfiskalen Åberg organiserat jakten på dem greps de till 
+                                   sist i Stockholm av detektiva polisen och avrättades så småningom 1876 vid landets sista offentliga avrättningar.
+                        </div>
+                        
+                        
+                        
+     <div id="grav10"><h3><a href="#grav10" onclick="selectTab('tab2')">Grav 1018-1031</a></h3>1018-1031<u> Militärgraven</u>
+                                 Sörmlands Regementes gravplats efter Ådö-katastrofen 1880 då 1 korpral, 13 beväringar och 2 civila ungdomar drunknade
+                                 när de skulle återvända med färgan efter en fest på ön och den överbelastade färgan kantrade. 
+                       </div>
+                               
+                               
+     <div id="grav11"><h3><a href="#grav11" onclick="selectTab('tab2')">Minnesskylt</a></h3>
+                            Gustaf Adolf Eriksson “Hjert”<br>
+                            5 september 1844 -  18 maj 1876<br>
+                             Avrättad på Lidamon utanför Malmköping den 18 maj 1876 för morden på ingenjör Herman Upmark och
+                             hans kusk Johan August Larsson. Han begick morden tillsammans med sin kumpan Conrad Pettersson 
+                             Lundqvist “Tektor” vid Navesta den 31 augusti 1874. “Tektor avrättades samma dag vid Stenkumla 
+                             på Gotland. Dessa blev de sista offentliga avrättningarna i Sverige. 
+                        </div>
+                        
+                        
+                        
+     <div id="grav12"><h3><a href="#grav12" onclick="selectTab('tab2')">Gravkulle</a></h3>
+                                <u> Kullen bakom kyrkan</u> <br>
+                                        med Kapten och Friherren Per Gustav Banér från Grinda Säteri †1802 och hans maka Grevinnan Hedvig Eleonora f. Creutz.
+                                    Banér hade före sin död påtalat det ohygieniska med att ha folk begravda under koret i kyrkan. 
+                                  När så Banér själv avled tog man beslut om att flytta kvarlevorna från kyrkan efter Banérs inrådan. Man anlade då kullen bakom kyrkan med kvarlevorna där även Banér och hans hustru fick sin viloplats. Kullen fick då namnet Banérska gravkullen.
+                                 2st stenhällar på baksidan av kullen har enligt uppgift inget med kvarlevorna att göra. Däremot finns en liten stenrest kvar uppe på toppen av kullen vilket kan tyda på att det kanske har funnits någon form av minnessten där tidigare.
+                               Av intresse för eftervärlden vore att sätta upp en minnestavla vid foten av kullen som beskriver historien om kullen. 
+                                            
+                                </div> </div>
+                        
+                        
+                  
+                        <div class="copyright">
+                            <p>Copyright © 2025 Annabelle Granat, Helena Wallin &amp; Henny Kuc Söderberg</p>
+                        </div>
+                        
+                        
+                        <script>
+    function selectTab(tabId) {
+      document.getElementById(tabId).checked = true;
+    }
+  </script>
+                        
+    </body>
+</html>
