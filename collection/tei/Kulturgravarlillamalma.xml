@@ -20,7 +20,7 @@
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="o.w_wæl">
+               <person xml:id="o.w-wæl">
                   <age>59</age>
                   <sex>man</sex>
                   <persName>
@@ -43,7 +43,7 @@
                      garvaren Öjer.
                   </note>
                </person>
-               <person xml:id="joh_wan">
+               <person xml:id="joh-wan">
                   <age>70</age>
                   <sex>man</sex>
                   <persName>
@@ -70,7 +70,7 @@
                      Men historien om honom är för dagen ej känd.
                   </note>
                </person>
-               <person xml:id="gus_öij">
+               <person xml:id="gus-öij">
                   <age></age>
                   <sex></sex>
                   <persName>
@@ -93,7 +93,7 @@
                   </note>
                </person>
             </listPerson>
-            <person xml:id="car_len">
+            <person xml:id="car-len">
                <age>76</age>
                <sex>man</sex>
                <persName>
@@ -111,7 +111,7 @@
                   platsen vid nuvarande bilverkstad. (En strategisk plats för dåtida järnvägstransporter)
                </note>
             </person>
-            <person xml:id="vic_fre">
+            <person xml:id="vic-fre">
                <age>67</age>
                <sex>man</sex>
                <persName>
@@ -140,7 +140,7 @@
                   tusen kronor.
                </note>
             </person>
-            <person xml:id="car_for">
+            <person xml:id="car-for">
                <age>68</age>
                <sex>man</sex>
                <persName>
@@ -164,7 +164,7 @@
                   mej fan lära kärringdjävlarna att veta hut! -
                </note>
             </person>
-            <person xml:id="per_bro">
+            <person xml:id="per-bro">
                <age>69</age>
                <sex>man</sex>
                <persName>
@@ -181,7 +181,7 @@
                   bredde plats för en större bussterminal.
                </note>
             </person>
-            <person xml:id="gus_jäd">
+            <person xml:id="gus-jäd">
                <age>okänd</age>
                <sex>man</sex>
                <persName>
@@ -213,7 +213,7 @@
                   den överbelastade färgan kantrade. 
                </note>
             </person>
-            <person xml:id="per_ban">
+            <person xml:id="per-ban">
                <age>43</age>
                <sex>man</sex>
                <persName>
