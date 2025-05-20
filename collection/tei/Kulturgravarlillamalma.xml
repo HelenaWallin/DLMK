@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+   <!--   NOTE:
+         <teiCorpus> requires its own <teiHeader>, to describe the 'corpus' as a whole. Then, each TEI-element has its own <teiHeader> (and <text>) to describe the individual 'graves'. 
+         You can add some of the 'general' metadata (that applies to 'every' grave) in this <teiHeadder> (title, contributors, license, list of persons, etc.)  -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt/>
+         <sourceDesc></sourceDesc>
+      </fileDesc>
+      <!--   NOTE: 
+            I have moved the <profileDesc> with the list of the deceased (and their descriptons) here, so they are part of the metadata of the <teiCorpus>. 
+            Then, inside each grave's <TEI> element, you can refer back to these people with the @xml:id (see below).  -->
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="o.w-wæl">
+                  <age>59</age>
+                  <sex>man</sex>
+                  <persName>
+                     <forename>O.W.</forename>
+                     <surname>Wæsström</surname>
+                  </persName>
+                  <birth when="1816"> </birth>
+                  <death when="1875"> </death>
+                  <occupation>ordningsman</occupation>
+                  <note> 
+                     Efter att Malmköpings grundare, Sörmlands Regementes chef Gustav Adolf von Siegroth
+                     och kronolänsman och postmästaren Jacob Falleij gått ur tiden 1802 resp 1813, saknade
+                     Malmköping någon verklig kommunal ledare. Men 1829 tillsattes efter många uppvaktningar
+                     hos myndigheterna en “borgmästare” med titeln ordningsman. Han skulle vara skrivkunnig
+                     och sortera under landshövdingen, men valdes av köpingsborna. Han fick fiskala
+                     befogenheter med kontroll av lagar och förordningar efterföljdes och blev därmed också en
+                     hjälp till kronolänsmannen. Han skulle också ansvara för köpingens ekonomi och se till att
+                     sockenstämmans fattade beslut blev utförda
+                     Waesström blev den tredje ordningsmannen i ordningen efter handelsman Ekbom och
+                     garvaren Öjer.
+                  </note>
+               </person>
+               <person xml:id="joh-wan">
+                  <age>70</age>
+                  <sex>man</sex>
+                  <persName>
+                     <forename>Johan Fredrik</forename>
+                     <surname>Wanström</surname>
+                  </persName>
+                  <birth when="1775-05-08"> </birth>
+                  <death when="1845-09-28"> </death>
+                  <occupation>postmästare och apotekare</occupation>
+                  <note>
+                     1788 fick man reguljär postförbindelse mellan Nyköping och Eskilstuna. Då uppstod också
+                     behov av ett postkontor i Malmköping.
+                     Den nyinflyttande smedfamiljsvallonen från Östergötland, Kronolänsman Jacob Falleij,
+                     blev den första som åtog sig jobbet som postmästare i Malmköping, och lät då bygga det röda
+                     huset indvid det lilla häktet vid Gustav Adolfs Torg för sitt ämbete.
+                     Omkring år 1800 övertog så Johan Fredrik Wanström postmästarsysslan under några år.
+                     Men han fick sedermera flera strängar på sin lyra. Förutom titulationerna postmästare och
+                     tullinspektör blev han också 1807 Malmköpings första apotekare som inrättades i det som
+                     kom att kallas Frendinska Gården, nuvarande Landsvägsgatan 17. Detta Malmköpings första
+                     apotek tillkom på begäran från Sörmlands regemente och godsägare i trakten.
+                     Under 1800-talets senare del flyttades apoteket till Tingsgatan vid Gustav Adolfs Torg.
+                     
+                     I graven ligger också Häradshövding Fredrik Wilhelm Strandberg *1793†1865.
+                     Men historien om honom är för dagen ej känd.
+                  </note>
+               </person>
+               <person xml:id="gus-öij">
+                  <age></age>
+                  <sex></sex>
+                  <persName>
+                     <forename>Gustav</forename>
+                     <surname>Öijer</surname>
+                  </persName>
+                  <birth when="1794"> </birth>
+                  <death when="1864"> </death>
+                  <occupation>garvare</occupation>
+                  <note>
+                     Århundradets kommunala ledare hade den titeln. Skulle vara skrivkunnig och sortera under
+                     landshövdingen men valdes av Malmköpingsborna. Han fick också fiskala befogenheter med
+                     kontroll av att lagar och förordningar efterföljdes och blev därmed också en hjälp till
+                     kronolänsmännen.
+                     Senare släktet Öjer har på 1900-talet haft manufaktur, mode och kortvaruhandel i köpingen.
+                     I gravboken finns följande gravsatta inskrivna:
+                     Johan Sigfrid Albin Öjer, fotograv †1926
+                     Anna Fanny Armida, handlare †1932
+                     Signe Linnea, handlare, gård 34 †1944
+                  </note>
+               </person>
+            </listPerson>
+            <person xml:id="car-len">
+               <age>76</age>
+               <sex>man</sex>
+               <persName>
+                  <forename>Carl</forename>
+                  <surname>Lennmalm</surname>
+               </persName>
+               <birth when="1845"> </birth>
+               <death when="1921"> </death>
+               <occupation>företagare och kommunalpolitiker</occupation>
+               <note>
+                  Mäktig företagare i Malmköping och Sparreholm. Bedrev handel med spannmål och div.
+                  andra varor. Ägde flera stora fastigheter i köpingen bl.a. hotell Fenix.
+                  Var också en drivande kommunalpolitiker kommunalfullmäktigeordförande ca 1900-1919
+                  Öppnade innan telefonen kom egen telefonlinje till sin företagsetablering vid Sparreholm på
+                  platsen vid nuvarande bilverkstad. (En strategisk plats för dåtida järnvägstransporter)
+               </note>
+            </person>
+            <person xml:id="vic-fre">
+               <age>67</age>
+               <sex>man</sex>
+               <persName>
+                  <forename>Victor</forename>
+                  <surname>Frendin</surname>
+               </persName>
+               <birth when="1833"> </birth>
+               <death when="1900"> </death>
+               <occupation>ordningsman</occupation>
+               <note>
+                  Från början militär och bodde vid Häckelsta. Blev ordningsman 1877 och kommunalpamp
+                  “utan beslutsångest”. Ville bringa ordning och reda i köpingen.
+                  Bland det första han tog itu med var att utse en lykttändare för att hålla köpingen upplyst
+                  under den mörka tiden. Uppdraget gick till gårdsinnehafvaren Johan Fredrik Jonsson. Han
+                  erhöll 70 öre för varje afton som lyktorna hölls tändare till kl.10. Under marknaden hela
+                  nätterna och vid julottan från kl. 5
+                  I sin strävan att upprätthålla ordningen lyckades han 1887 få hjälp med att inrätta den första
+                  polistjänsten i Malmköping. Det blev kopparslagare Henrik Forsberg som fick jobbet som
+                  extraknäck till sitt kopparslageri. Han erhöll ett årsarvode på 200 kr för att bl.a patrullera två
+                  gånger dagligen genom köpingen.
+                  Att Victor Frendin blev en respektabel man i köpingen märktes vid hans begravning som
+                  omgärdades av militärer, musikkår, stängda affärer och alla flaggor på halv stång.
+                  På graven stod tidigare två värdefulla urnor som minne från “Frendinska Gården”. Dessa
+                  stals tyvärr någon gång under 1900-talet. Två identiska urnor återfanns sedan på en
+                  antikauktion i Danmark som antikhandlare Bohmm i Malmköping då ropade in för ett antal
+                  tusen kronor.
+               </note>
+            </person>
+            <person xml:id="car-for">
+               <age>68</age>
+               <sex>man</sex>
+               <persName>
+                  <forename>Carl Johan</forename>
+                  <surname>Forsberg</surname>
+               </persName>
+               <birth when="1859"> </birth>
+               <death when="1927"> </death>
+               <occupation>löjtnant</occupation>
+               <note>
+                  Kallad Borgmästaren. Tjänstgjorde i landsstormen, dåtidens benämning på civilförsvar.
+                  Men han kom också att ägna sig åt kommunalt styre. Blev ordningsman efter Victor
+                  Frendin och ordförande i municipalstyrelsen. Malmköping var då sedan 1860 en egen
+                  kommun i L:a Malma socken, ett s.k. municipalsamhälle med egen kommunalstämma
+                  municipalstyrelse (Carl Lennmalm var samtidigt kommunalfullmäktigeordförande för hela
+                  L:a malma socken) Ordningsmannabefogenheten med municipalstyrelse levde kvar till 1916,
+                  då den ersattes av kommunalnämnd för hela L:a Malma socken.
+                  Forsberg var en engagerad man. Förutom ovannämnda blev han också brandchef, bankman,
+                  ledamot i kyrkorådet, ordförande i skolstyrelsen mm. Han var en stridens man. Lär ha sagt
+                  nån gång på ett sammanträde när det hade uppenbarat sig kvinnfolk med åsikter - Jag ska ta
+                  mej fan lära kärringdjävlarna att veta hut! -
+               </note>
+            </person>
+            <person xml:id="per-bro">
+               <age>69</age>
+               <sex>man</sex>
+               <persName>
+                  <forename>Per August</forename>
+                  <surname>Brolin</surname>
+               </persName>
+               <birth when="1932"> </birth>
+               <death when="1901"> </death>
+               <occupation>folkskoleläraren och organisten</occupation>
+               <note>
+                  Ett historiskt minne i köpingen var “Brolinska villan” som låg vid nuvarande busstation där
+                  sedan “Runes kiosk” blev en samlingspunkt och där sedan huset byggdes om till Runebaren
+                  och matknekten. När sedan verksamheten upphörde där på 1990-talet revs hela huset som då
+                  bredde plats för en större bussterminal.
+               </note>
+            </person>
+            <person xml:id="gus-jäd">
+               <age>okänd</age>
+               <sex>man</sex>
+               <persName>
+                  <forename>Gustav</forename>
+                  <surname>Jäderholm</surname>
+               </persName>
+               <occupation>kronolänsman</occupation>
+               <note>
+                  Kronolänsman Gustav Jäderholm bodde på och skötte Länsmansgården i Malmköping i 44 år
+                  1833-1877 med hjälp av några drängar och några pigor. Länsmansgården, som var granngård
+                  med Gästgivargården, var kronolänsmansgård för Katrineholmsdistriktet under 1700- och
+                  1800-talet.
+                  De sista åren under Jäderholm tid kom att präglas av dramatik. 1874 fick han anmälan om
+                  att två misstänkta individer höllo till i en grotta utanför Malmköping bakom den s.k.
+                  trekanten. Det var Gustav Adolf Eriksson Hjert och Conrad Pettersson Lundkvist Tektor som
+                  hade kommit till Malmköping nyss frigivna från Långholmen och ute på en längre
+                  inbrottsturne. De drömde om att flytta till Amerika, och pengarna därtill skulle de få genom
+                  att råna postdiligensen.
+                  Vad som sen hände äro allom känt.
+                  Efter att Jäderholm och landsfiskalen Åberg organiserat jakten på dem greps de till sist i
+                  Stockholm av detektiva polisen och avrättades så småningom 1876 vid landets sista offentliga
+                  avrättningar.
+               </note>
+            </person>
+            <person xml:id="militärgraven">
+               <note>
+                  Sörmlands Regementes gravplats efter Ådö-katastrofen 1880 då 1 korpral, 13 beväringar
+                  och 2 civila ungdomar drunknade när de skulle återvända med färgan efter en fest på ön och
+                  den överbelastade färgan kantrade. 
+               </note>
+            </person>
+            <person xml:id="per-ban">
+               <age>43</age>
+               <sex>man</sex>
+               <persName>
+                  <forename>Per Gustav</forename>
+                  <surname>Banér</surname>
+               </persName>
+               <birth when="1759"> </birth>
+               <death when="1802"> </death>
+               <occupation>kapten och friherre</occupation>
+               <note>
+                  Kullen bakom kyrkan
+                  med
+                  Kapten och Friherren Per Gustav Banér från Grinda Säteri †1802 och hans maka Grevinnan
+                  Hedvig Eleonora f. Creutz.
+                  Banér hade före sin död påtalat det ohygieniska med att ha folk begravda under koret i
+                  kyrkan.
+                  När så Banér själv avled tog man beslut om att flytta kvarlevorna från kyrkan efter Banérs
+                  inrådan. Man anlade då kullen bakom kyrkan med kvarlevorna där även Banér och hans
+                  hustru fick sin viloplats. Kullen fick då namnet Banérska gravkullen.
+                  2st stenhällar på baksidan av kullen har enligt uppgift inget med kvarlevorna att göra.
+                  Däremot finns en liten stenrest kvar uppe på toppen av kullen vilket kan tyda på att det
+                  kanske har funnits någon form av minnessten där tidigare.
+                  Av intresse för eftervärlden vore att sätta upp en minnestavla vid foten av kullen som
+                  beskriver historien om kullen.
+               </note>
+            </person>
+            <person xml:id="hjert">
+               <age>32</age>
+               <sex>man</sex>
+               <persName>
+                  <forename>Gustaf Adolf</forename>
+                  <surname>Eriksson</surname>
+                  <addName>Hjert</addName>
+               </persName>
+               <birth when="1844"> </birth>
+               <death when="1876"> </death>
+               <occupation>kriminell</occupation>
+               <note>
+                  Minnesskylt (uppsatt av Hembygdsföreningen) av Hjert, den ena av rövarna som 1874 av miss-
+                  tag råkade mörda ingenjör upmark och hans kördräng
+                  när de i själva verket var ute för att råna post-diligensen.
+                  Hjert begravdes efter avrättningen 1876
+                  utanför kyrkogårdsmuren. Men efter kyrkogårdens
+                  utvidgning på 1920-talet kom han då ändå att hamna i vigd jord.
+                  Önskvärt vore kanske att skärma av platsen med
+                  en liten häck för att inte väcka obehagskänsla för
+                  gravrättsinnehavaren intill.
+               </note>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <!--   NOTE:
+         You will probably want to move some of the general information in here to the <teiHeader> of <teiCorpus> (above). 
+         That way, you don't have to keep repeating the information. (And potentially introduce mistakes with the repetitions).  -->
+         <fileDesc>
+            <titleStmt>
+               <title>Kulturgravar lilla Malma kyrkogård</title>
+               <author corresp="#WD">Annabelle, Henny och Helena</author>
+               <!--   NOTE:
+               The <principal> is whoever is ultimately responsible for the file (usually, in research projects, the project leader). For the template, that was me. But for your assignment, it isn't. 
+               FYI: having a <principal> is not obligatory. You can describe your individual responisbilities with the <respStmt> element I showed you at the Zoom meeting.  -->
+               <principal>Wout Dillen</principal>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>University of Borås</publisher>
+               <date>May 2025</date>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                     <p> Transcription distributed under a CC-BY-SA 4.0 license. </p>
+                  </licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc facs="#Plot_S1">
+                  <msIdentifier>
+                     <idno>S1</idno>
+                     <altIdentifier>
+                        <idno type="gravnummer">178</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc form="PLB">
+                        <supportDesc>
+                           <support>
+                              <material>stone</material>
+                           </support>
+                           <condition>excellent</condition>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <particDesc>
+               <!--   NOTE:
+            This is where you can refer back to the people listed in the <profileDesc> of our <teiCorpus> (above). 
+            You can do so by referencing the @xml-id of the corresponding <person> in the @corresp attribute.
+            Since you are REFERENCING a UNIQUE IDENTIFIER (@xml:id, explained above), you have to start the ID with a Hashtag (#) as shown below.  -->
+               <person corresp="#fra-osb"/>
+            </particDesc>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <!--   NOTE:
+         Don't forget to remove my postit surfaces ;)  -->
+         <surface xml:id="postit01">
+            <figure>
+               <label>Post-It Front</label>
+               <figDesc> A photograph of the front of a post-it with a simple example phrase. </figDesc>
+               <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
+               <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            </figure>
+         </surface>
+         <surface xml:id="postit02">
+            <figure>
+               <label>Post-It Back</label>
+               <figDesc> A photograph of the back a post-it with a simple example phrase. </figDesc>
+               <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
+               <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
+            </figure>
+         </surface>
+         <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+            <zone xml:id="Plot_S1" ulx="61.963885" uly="857.298979" lrx="71.247226" lry="869.154664" points="71.247226,858.7710139999999 64.107819,857.298979 61.963885,867.682629 69.103293,869.154664 ">
+               <graphic url="film:_H/26268"/>
+               <graphic url="pictures/2007_0099.jpg"/>
+            </zone>
+         </surface>
+      </facsimile>
+      <text>
+         <body>
+            <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IF #t_P">
+               <ab>FRANCIS D'ARCY GODOLPHIN</ab>
+               <ab>OSBORNE</ab>
+               <ab>K.C.M.G. K.ST.J. K.C.S.G.</ab>
+               <ab>12TH. AND LAST DUKE OF LEEDS.</ab>
+               <ab>MINISTER TO THE HOLY SEE</ab>
+               <ab>1936–1947</ab>
+               <ab>LONDON 16.9.1884</ab>
+               <ab>ROME 20.3.1964</ab>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <!--   NOTE:
+         I started a new TEI element here to show you how multiple <TEI> elements can fit inside one <teiCorpus> element  -->
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt/>
+            <sourceDesc/>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface/>
+      </facsimile>
+      <text>
+         <body>
+            <div/>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>
