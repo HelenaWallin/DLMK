@@ -3,24 +3,53 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
-   <!--   NOTE:
-         <teiCorpus> requires its own <teiHeader>, to describe the 'corpus' as a whole. Then, each TEI-element has its own <teiHeader> (and <text>) to describe the individual 'graves'. 
-         You can add some of the 'general' metadata (that applies to 'every' grave) in this <teiHeadder> (title, contributors, license, list of persons, etc.)  -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
-         </titleStmt>
-         <publicationStmt/>
-         <sourceDesc></sourceDesc>
+            
+            <title>Kulturgravar på lilla Malma kyrkogård</title>
+            <author>Annabelle Granat, Henny Kuc Söderberg och Helena Wallin </author>
+            
+            <respStmt>
+               <resp>Inventering av kulturgravar på lilla Malma kyrkogård samt beskrivning av gravar och gravsatta personer</resp>
+               <name>Rolf Andersson</name> 
+               </respStmt>
+            <respStmt>
+               <resp>Rapport och litteratursökning</resp>
+               <name>Annabelle Granat</name>
+            </respStmt>
+            <respStmt>
+               <resp>Fotografering, HTML och transkribering av Rolf Anderssons handskrivna beskrivningarav av gravar och gravsatta personer</resp>
+               <name >Henny Kuc Söderberg</name>
+            </respStmt>
+            <respStmt>
+               <resp>Fotografering, redigering samt beskrivning av metadata för bilder och Tei-Kodning</resp>
+               <name>Helena Wallin</name>
+            </respStmt>
+           
+            </titleStmt>
+         
+         <publicationStmt>
+            <publisher>Högskolan i Borås</publisher>
+            <date>maj 2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> Transcription distributed under a CC-BY-SA 4.0 license. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <p>Kopior på handskriven kulturgravsinventering med beskrivningar av gravarna och gravsatta personer</p>
+            <p> x antal gravvårdar med inskription eller relieftext</p>
+         </sourceDesc>
+         
+         
       </fileDesc>
-      <!--   NOTE: 
-            I have moved the <profileDesc> with the list of the deceased (and their descriptons) here, so they are part of the metadata of the <teiCorpus>. 
-            Then, inside each grave's <TEI> element, you can refer back to these people with the @xml:id (see below).  -->
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="o.w-wæl">
+               <person xml:id="o.w-wæs">
                   <age>59</age>
                   <sex>man</sex>
                   <persName>
@@ -268,31 +297,17 @@
    </teiHeader>
    <TEI>
       <teiHeader>
-         <!--   NOTE:
-         You will probably want to move some of the general information in here to the <teiHeader> of <teiCorpus> (above). 
-         That way, you don't have to keep repeating the information. (And potentially introduce mistakes with the repetitions).  -->
          <fileDesc>
             <titleStmt>
-               <title>Kulturgravar lilla Malma kyrkogård</title>
-               <author corresp="#WD">Annabelle, Henny och Helena</author>
-               <!--   NOTE:
-               The <principal> is whoever is ultimately responsible for the file (usually, in research projects, the project leader). For the template, that was me. But for your assignment, it isn't. 
-               FYI: having a <principal> is not obligatory. You can describe your individual responisbilities with the <respStmt> element I showed you at the Zoom meeting.  -->
-               <principal>Wout Dillen</principal>
+               <title></title>
             </titleStmt>
             <publicationStmt>
-               <publisher>University of Borås</publisher>
-               <date>May 2025</date>
-               <availability>
-                  <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
-                     <p> Transcription distributed under a CC-BY-SA 4.0 license. </p>
-                  </licence>
-               </availability>
+               <publisher></publisher>
             </publicationStmt>
             <sourceDesc>
-               <msDesc facs="#Plot_S1">
+               <msDesc>
                   <msIdentifier>
-                     <idno>S1</idno>
+                     <idno>G1</idno>
                      <altIdentifier>
                         <idno type="gravnummer">178</idno>
                      </altIdentifier>
@@ -301,7 +316,8 @@
                      <objectDesc form="PLB">
                         <supportDesc>
                            <support>
-                              <material>stone</material>
+                              <material>sten</material>
+                              <p>upprättstående gravvård</p>
                            </support>
                            <condition>excellent</condition>
                         </supportDesc>
@@ -310,45 +326,31 @@
                </msDesc>
             </sourceDesc>
          </fileDesc>
-         <profileDesc>
-            <particDesc>
-               <!--   NOTE:
-            This is where you can refer back to the people listed in the <profileDesc> of our <teiCorpus> (above). 
-            You can do so by referencing the @xml-id of the corresponding <person> in the @corresp attribute.
-            Since you are REFERENCING a UNIQUE IDENTIFIER (@xml:id, explained above), you have to start the ID with a Hashtag (#) as shown below.  -->
-               <person corresp="#fra-osb"/>
-            </particDesc>
-         </profileDesc>
-      </teiHeader>
+         </teiHeader>
+      
       <facsimile>
-         <!--   NOTE:
-         Don't forget to remove my postit surfaces ;)  -->
-         <surface xml:id="postit01">
-            <figure>
-               <label>Post-It Front</label>
-               <figDesc> A photograph of the front of a post-it with a simple example phrase. </figDesc>
-               <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-               <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
-            </figure>
-         </surface>
-         <surface xml:id="postit02">
-            <figure>
-               <label>Post-It Back</label>
-               <figDesc> A photograph of the back a post-it with a simple example phrase. </figDesc>
-               <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
-               <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
-            </figure>
-         </surface>
-         <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
-            <zone xml:id="Plot_S1" ulx="61.963885" uly="857.298979" lrx="71.247226" lry="869.154664" points="71.247226,858.7710139999999 64.107819,857.298979 61.963885,867.682629 69.103293,869.154664 ">
-               <graphic url="film:_H/26268"/>
-               <graphic url="pictures/2007_0099.jpg"/>
-            </zone>
-         </surface>
+            <surface xml:id="grav001-front">
+               <desc>Framsida av gravstenen med huvudsaklig inskription.</desc>
+               <graphic url="images/grav001-front.jpg"/>
+               
+            </surface>
+            
+            <surface xml:id="grav001-back">
+               <desc>Baksida med tilläggsinskription.</desc>
+               <graphic url="images/grav001-back.jpg"/>
+               
+            </surface>
+          
+            <surface xml:id="grav001-detail">
+               <desc>Närbild av dekoration upptill på stenen.</desc>
+               <graphic url="images/grav001-detail.jpg"/>
+               
+            </surface>
       </facsimile>
+      
       <text>
          <body>
-            <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IF #t_P">
+            <div type="inscription">
                <ab>FRANCIS D'ARCY GODOLPHIN</ab>
                <ab>OSBORNE</ab>
                <ab>K.C.M.G. K.ST.J. K.C.S.G.</ab>
@@ -360,26 +362,9 @@
             </div>
          </body>
       </text>
+      
    </TEI>
-   <!--   NOTE:
-         I started a new TEI element here to show you how multiple <TEI> elements can fit inside one <teiCorpus> element  -->
-   <TEI>
-      <teiHeader>
-         <fileDesc>
-            <titleStmt>
-               <title/>
-            </titleStmt>
-            <publicationStmt/>
-            <sourceDesc/>
-         </fileDesc>
-      </teiHeader>
-      <facsimile>
-         <surface/>
-      </facsimile>
-      <text>
-         <body>
-            <div/>
-         </body>
-      </text>
-   </TEI>
+      
+            
+  
 </teiCorpus>
