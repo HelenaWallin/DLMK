@@ -378,7 +378,295 @@
       </text>
       
    </TEI>
+     
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Johan Fredrik Wanström</title>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Borås Högskola</publisher>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno>G2</idno>
+                     <altIdentifier>
+                        <idno type="gravnummer">376-377</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc form="PLB">
+                        <supportDesc>
+                           <support>
+                              <material>sten</material>
+                              <p>stående gravvård i sten</p>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               
+            </sourceDesc>
+         </fileDesc>
+         
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person corresp="#joh-wan"></person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
+      </teiHeader>
       
+      <facsimile>
+         
+         <surface xml:id="G2.01">
+            <figure>
+               <label>Grav 2 framifrån</label>
+               <figDesc>
+                  Fotografi av stående gravvård i sten sedd framifrån.
+               </figDesc>
+               <graphic xml:id="G2.01_raw" url="main/collection/img/G2.01.NEF"/>
+               <graphic xml:id="G2.01_jpg" url="assets/img/documents/376-377_01.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G2.02">
+            <figure>
+               <label>Grav 2 snett framifrån</label>
+               <figDesc>
+                  Fotografi av stående gravvård i sten sedd snett framifrån.
+               </figDesc>
+               <graphic xml:id="G2.02_raw" url="main/collection/img/G2.02.NEF"/>
+               <graphic xml:id="G2.02_jpg" url="assets/img/documents/376-377_02"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G2.03">
+            <figure>
+               <label>Inskription på stående gravvård från Grav 3</label>
+               <figDesc>
+                  Fotografi av inskription på gravvård i sten.
+               </figDesc>
+               <graphic xml:id="G2.03_raw" url="main/collection/img/G2.03.NEF"/>
+               <graphic xml:id="G2.03_jpg" url="assets/img/documents/376-377_03"/>
+            </figure>
+         </surface>
+         
+      </facsimile>
+      
+      <text>
+         <body>
+            <div type="inscription">
+               <ab><damage><unclear>POSTMÄSTAREN</unclear></damage></ab>
+               <ab><damage><unclear>J.F. WAN</unclear>STRÖM</damage></ab>
+               <ab>F.W.STRANDBERGS</ab>
+               <ab>FAMILJEGRAF</ab>
+            </div>
+         </body>
+      </text>
+      
+   </TEI>
+   
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Gustav Öjer</title>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Borås Högskola</publisher>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno>G3</idno>
+                     <altIdentifier>
+                        <idno type="gravnummer">404-408</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc form="PLB">
+                        <supportDesc>
+                           <support>
+                              <material>sten</material>
+                              <p>liggande gravvård i sten</p>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               
+            </sourceDesc>
+         </fileDesc>
+         
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person corresp="#gus-öje"></person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
+      </teiHeader>
+      
+      <facsimile>
+         
+         <surface xml:id="G3.01">
+            <figure>
+               <label>Grav 3 ovanifrån</label>
+               <figDesc>
+                  Fotografi av liggande gravvård i sten sedd ovanifrån.
+               </figDesc>
+               <graphic xml:id="G3.01_raw" url="main/collection/img/G3.01.NEF"/>
+               <graphic xml:id="G3.01_jpg" url="assets/img/documents/404-408_01.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G3.02">
+            <figure>
+               <label>Grav 3 snett ovanifrån</label>
+               <figDesc>
+                  Fotografi av liggande gravvård i sten sedd snett ovanifrån.
+               </figDesc>
+               <graphic xml:id="G3.02_raw" url="main/collection/img/G3.02.NEF"/>
+               <graphic xml:id="G3.02_jpg" url="assets/img/documents/404-408_02"/>
+            </figure>
+         </surface>
+         
+         
+      </facsimile>
+      
+      <text>
+         <body>
+            <div type="relieftext">
+               <ab>ÖJERS</ab>
+               <ab>FAMILJEGRAV</ab>
+            </div>
+         </body>
+      </text>
+      
+   </TEI>
+   
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Carl Lennmalm</title>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Borås Högskola</publisher>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno>G4</idno>
+                     <altIdentifier>
+                        <idno type="gravnummer">445-448</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc form="PLB">
+                        <supportDesc>
+                           <support>
+                              <material>sten</material>
+                              <p> en gravmur, en stående gravvård och en liggande gravvård i sten. </p>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               
+            </sourceDesc>
+         </fileDesc>
+         
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person corresp="#car-len"></person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
+      </teiHeader>
+      
+      <facsimile>
+         
+         <surface xml:id="G4.01">
+            <figure>
+               <label>Grav 4 framifrån</label>
+               <figDesc>
+                  Fotografi av en mur, en stående gravvård  och en liggande gravvård i sten. 
+               </figDesc>
+               <graphic xml:id="G4.01_raw" url="main/collection/img/G4.01.NEF"/>
+               <graphic xml:id="G4.01_jpg" url="assets/img/documents/445-448_01.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G4.02">
+            <figure>
+               <label>relieftext stående gravvård från grav 3</label>
+               <figDesc>
+                  Fotografi av relieftext på stående gravvård i sten.
+               </figDesc>
+               <graphic xml:id="G4.02_raw" url="main/collection/img/G4.02.NEF"/>
+               <graphic xml:id="G4.02_jpg" url="assets/img/documents/445-448_02.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G4.03">
+         <figure>
+            <label>porträtt stående gravvård från grav 3</label>
+            <figDesc>
+               Fotografi av porträtt på stående gravvård i sten.
+            </figDesc>
+            <graphic xml:id="G4.03_raw" url="main/collection/img/G4.03.NEF"/>
+            <graphic xml:id="G4.03_jpg" url="assets/img/documents/445-448_03.JPG"/>
+         </figure>
+         </surface>
+         
+         <surface xml:id="G4.04">
+            <figure>
+               <label>Grav 3 snett framifrån</label>
+               <figDesc>
+                  Fotografi av grav sedd snett framifrån med gravmur, en stående gravvård och en 
+                  liggande gravvård i sten.
+               </figDesc>
+               <graphic xml:id="G4.04_raw" url="main/collection/img/G4.04.NEF"/>
+               <graphic xml:id="G4.04_jpg" url="assets/img/documents/445-448_04.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G4.05">
+            <figure>
+               <label>Liggande gravvård för grav 4</label>
+               <figDesc>
+                  Fotografi av liggande gravvård i sten sedd ovanifrån 
+               </figDesc>
+               <graphic xml:id="G4.05_raw" url="main/collection/img/G4.05.NEF"/>
+               <graphic xml:id="G4.05_jpg" url="assets/img/documents/445-448_05.JPG"/>
+            </figure>
+         </surface>
+         
+      </facsimile>
+      
+      <text>
+         <body>
+            <div type="relieftext">
+               <head>Stående gravvård</head>
+               <ab>GROSSHANDLAREN R.N.O  R.V.O</ab>
+               <ab>CARL LENNMALM</ab>
+               <ab>★25/2 1845 †18/1 1921</ab>
+            </div>
             
+            <div type="inskription">
+               <head>Liggande gravvård</head>
+               <ab>HJALMAR LENNMALM</ab>
+               <ab>1862-1905</ab>
+            </div>
+            
+         </body>
+      </text>
+   </TEI>  
   
 </teiCorpus>
