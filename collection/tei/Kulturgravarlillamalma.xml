@@ -7,11 +7,11 @@
       <fileDesc>
          <titleStmt>
             
-            <title>Kulturgravar på lilla Malma kyrkogård</title>
+            <title>Kulturgravar på lilla Malma gamla kyrkogård</title>
             <author>Annabelle Granat, Henny Kuc Söderberg och Helena Wallin </author>
             
             <respStmt>
-               <resp>Inventering av kulturgravar på lilla Malma kyrkogård samt beskrivning av gravar och gravsatta personer</resp>
+               <resp>Inventering av kulturgravar på lilla Malma gamla kyrkogård samt beskrivning av gravar och gravsatta personer</resp>
                <name>Rolf Andersson</name> 
                </respStmt>
             <respStmt>
@@ -299,17 +299,17 @@
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title></title>
+               <title>O.W.Wæsström</title>
             </titleStmt>
             <publicationStmt>
-               <publisher></publisher>
+               <publisher>Borås Högskola</publisher>
             </publicationStmt>
             <sourceDesc>
                <msDesc>
                   <msIdentifier>
                      <idno>G1</idno>
                      <altIdentifier>
-                        <idno type="gravnummer">178</idno>
+                        <idno type="gravnummer">367-368</idno>
                      </altIdentifier>
                   </msIdentifier>
                   <physDesc>
@@ -317,48 +317,62 @@
                         <supportDesc>
                            <support>
                               <material>sten</material>
-                              <p>upprättstående gravvård</p>
+                              <p>stående gravvård i sten</p>
                            </support>
-                           <condition>excellent</condition>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
                </msDesc>
+               
             </sourceDesc>
-         </fileDesc>
+            </fileDesc>
+         
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person corresp="#o.w-wæs"></person>
+               </listPerson>
+            </particDesc>
+            </profileDesc>
          </teiHeader>
       
       <facsimile>
-            <surface xml:id="grav001-front">
-               <desc>Framsida av gravstenen med huvudsaklig inskription.</desc>
-               <graphic url="images/grav001-front.jpg"/>
-               
-            </surface>
-            
-            <surface xml:id="grav001-back">
-               <desc>Baksida med tilläggsinskription.</desc>
-               <graphic url="images/grav001-back.jpg"/>
-               
+         
+         <surface xml:id="G1.01">
+            <figure>
+               <label>Grav 1 framifrån</label>
+               <figDesc>
+                  Fotografi av stående gravvård i sten sedd framifrån
+               </figDesc>
+               <graphic xml:id="G1.01_raw" url="main/collection/img/G1.01.NEF"/>
+               <graphic xml:id="G1.01_jpg" url="assets/img/documents/367-368_01.JPG"/>
+            </figure>
+         </surface>
+         
+            <surface xml:id="G1.02">
+               <figure>
+                  <label>Grav 1 snett framifrån</label>
+                  <figDesc>
+                     Fotografi av stående gravvård i sten sedd snett framifrån
+                  </figDesc>
+                  <graphic xml:id="G1.02_raw" url="main/collection/img/G1.02.NEF"/>
+                  <graphic xml:id="G1.02_jpg" url="assets/img/documents/367-368_02"/>
+               </figure>
             </surface>
           
-            <surface xml:id="grav001-detail">
-               <desc>Närbild av dekoration upptill på stenen.</desc>
-               <graphic url="images/grav001-detail.jpg"/>
-               
-            </surface>
+          
       </facsimile>
       
       <text>
          <body>
             <div type="inscription">
-               <ab>FRANCIS D'ARCY GODOLPHIN</ab>
-               <ab>OSBORNE</ab>
-               <ab>K.C.M.G. K.ST.J. K.C.S.G.</ab>
-               <ab>12TH. AND LAST DUKE OF LEEDS.</ab>
-               <ab>MINISTER TO THE HOLY SEE</ab>
-               <ab>1936–1947</ab>
-               <ab>LONDON 16.9.1884</ab>
-               <ab>ROME 20.3.1964</ab>
+               <ab>ORDNINGSMANNEN</ab>
+               <ab>MALMKÖPING</ab>
+               <ab>O.W.Wæsström</ab>
+               <ab>★1819 †1876</ab>
+               <ab>SOFIA WILHELMINA</ab>
+               <ab><damage><unclear>R</unclear> ZETTERSTRÖ<unclear>N</unclear></damage></ab>
+               <ab><damage>★1826 †1913</damage></ab>
             </div>
          </body>
       </text>
