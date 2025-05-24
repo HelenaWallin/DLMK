@@ -8,18 +8,18 @@
          <titleStmt>
             
             <title>Kulturgravar på lilla Malma gamla kyrkogård</title>
-            <author>Annabelle Granat, Henny Kuc Söderberg och Helena Wallin </author>
+            <author>Annabelle Granat, Henny Kuc Söderberg och Helena Wallin</author>
             
             <respStmt>
-               <resp>Inventering av kulturgravar på lilla Malma gamla kyrkogård samt beskrivning av gravar och gravsatta personer</resp>
-               <name>Rolf Andersson</name> 
+               <resp>Inventering av kulturgravar på lilla Malma kyrkogård samt beskrivning av gravar och gravsatta personer</resp>
+               <name>Rolf Oskarsson</name> 
                </respStmt>
             <respStmt>
-               <resp>Rapport och litteratursökning</resp>
+               <resp>Rapport, litteratursökning och validering av transkibering</resp>
                <name>Annabelle Granat</name>
             </respStmt>
             <respStmt>
-               <resp>Fotografering, HTML och transkribering av Rolf Anderssons handskrivna beskrivningarav av gravar och gravsatta personer</resp>
+               <resp>Fotografering, HTML och transkribering av Rolf Oskarsson handskrivna beskrivningar av gravar och gravsatta personer</resp>
                <name >Henny Kuc Söderberg</name>
             </respStmt>
             <respStmt>
@@ -295,6 +295,7 @@
          </particDesc>
       </profileDesc>
    </teiHeader>
+   
    <TEI>
       <teiHeader>
          <fileDesc>
@@ -365,13 +366,13 @@
       
       <text>
          <body>
-            <div type="inscription">
+            <div type="inskription">
                <ab>ORDNINGSMANNEN</ab>
                <ab>MALMKÖPING</ab>
                <ab>O.W.Wæsström</ab>
                <ab>★1819 †1876</ab>
                <ab>SOFIA WILHELMINA</ab>
-               <ab><damage><unclear>R</unclear> ZETTERSTRÖ<unclear>N</unclear></damage></ab>
+               <ab><damage><unclear>R f.</unclear>ZETTERSTRÖ<unclear>M</unclear></damage></ab>
                <ab><damage>★1826 †1913</damage></ab>
             </div>
          </body>
@@ -440,7 +441,6 @@
                   Fotografi av stående gravvård i sten sedd snett framifrån.
                </figDesc>
                <graphic xml:id="G2.02_raw" url="main/collection/img/G2.02.NEF"/>
-               <graphic xml:id="G2.02_jpg" url="assets/img/documents/376-377_02"/>
             </figure>
          </surface>
          
@@ -553,7 +553,7 @@
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title>Carl Lennmalm</title>
+               <title>Lilla Malma kyrkogård, grav 4</title>
             </titleStmt>
             <publicationStmt>
                <publisher>Borås Högskola</publisher>
@@ -584,7 +584,8 @@
          <profileDesc>
             <particDesc>
                <listPerson>
-                  <person corresp="#car-len"></person>
+                  <person corresp="#car-len">
+                  </person>
                </listPerson>
             </particDesc>
          </profileDesc>
@@ -627,7 +628,7 @@
          
          <surface xml:id="G4.04">
             <figure>
-               <label>Grav 3 snett framifrån</label>
+               <label>Grav 4 snett framifrån</label>
                <figDesc>
                   Fotografi av grav sedd snett framifrån med gravmur, en stående gravvård och en 
                   liggande gravvård i sten.
@@ -668,5 +669,528 @@
          </body>
       </text>
    </TEI>  
+   
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Lilla Malma kyrkogård, grav 5</title>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Borås Högskola</publisher>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno>G5</idno>
+                     <altIdentifier>
+                        <idno type="gravnummer">466-467</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc form="PLB">
+                        <supportDesc>
+                           <support>
+                              <material>sten</material>
+                              <p> En stående gravvård med gravlinje i sten. </p>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               
+            </sourceDesc>
+         </fileDesc>
+         
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person corresp="#vic-fre">
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
+      </teiHeader>
+      
+      <facsimile>
+         
+         <surface xml:id="G5.01">
+            <figure>
+               <label>Grav 5 snett från sidan</label>
+               <figDesc>
+                  Fotografi av en stående gravvård med gravlinje i sten sedd snett framifrån. 
+               </figDesc>
+               <graphic xml:id="G5.01_raw" url="main/collection/img/G5.01.NEF"/>
+               <graphic xml:id="G5.01_jpg" url="assets/img/documents/466-467_01.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G5.02">
+            <figure>
+               <label>Stående gravvård från grav 5</label>
+               <figDesc>
+                  Fotografi av stående gravvård i sten sedd framifrån .
+               </figDesc>
+               <graphic xml:id="G5.02_raw" url="main/collection/img/G5.02.NEF"/>
+               <graphic xml:id="G5.02_jpg" url="assets/img/documents/466-467_02.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G5.03">
+            <figure>
+               <label>Stående gravvård, från grav 5, snett framifrån</label>
+               <figDesc>
+                  Fotografi av stående gravvård i sten sedd snett framifrån.
+               </figDesc>
+               <graphic xml:id="G5.03_raw" url="main/collection/img/G5.03.NEF"/>
+               <graphic xml:id="G5.03_jpg" url="assets/img/documents/466-467_03.JPG"/>
+            </figure>
+         </surface>
+         
+      </facsimile>
+      
+      <text>
+         <body>
+            <div type="relieftext">
+               <ab>VICTOR FRENDINS</ab>
+               <ab>FAMILJEGRAV</ab>
+            </div>
+            
+            </body>
+      </text>
+   </TEI>  
+   
+   
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Lilla Malma kyrkogård, grav 6</title>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Borås Högskola</publisher>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno>G6</idno>
+                     <altIdentifier>
+                        <idno type="gravnummer">670-671</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc form="PLB">
+                        <supportDesc>
+                           <support>
+                              <material>sten</material>
+                              <p> Grav med staket i gjutjärn, en stående och en liggande gravvård i sten </p>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               
+            </sourceDesc>
+         </fileDesc>
+         
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person corresp="#car-for">
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
+      </teiHeader>
+      
+      <facsimile>
+         
+         <surface xml:id="G6.01">
+            <figure>
+               <label>Grav 6 framifrån</label>
+               <figDesc>
+                  Fotografi av grav sedd framifrån med staket i gjutjärn, en stående och en liggande gravvård i sten 
+               </figDesc>
+               <graphic xml:id="G6.01_raw" url="main/collection/img/G6.01.NEF"/>
+               <graphic xml:id="G6.01_jpg" url="assets/img/documents/670-671_01.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G6.02">
+            <figure>
+               <label>Grav 6 snett framifrån</label>
+               <figDesc>
+                  Fotografi av grav sedd snett framifrån med staket i gjutjärn, en stående och en liggande gravvård i sten.
+               </figDesc>
+               <graphic xml:id="G6.02_raw" url="main/collection/img/G6.02.NEF"/>
+               <graphic xml:id="G6.02_jpg" url="assets/img/documents/670-671_02.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G6.03">
+            <figure>
+               <label>Stående gravvård, från grav 6, sedd framifrån</label>
+               <figDesc>
+                  Fotografi av stående gravvård i sten sedd framifrån.
+               </figDesc>
+               <graphic xml:id="G6.03_raw" url="main/collection/img/G6.03.NEF"/>
+               <graphic xml:id="G6.03_jpg" url="assets/img/documents/670-671_03.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G6.04">
+            <figure>
+               <label>Relieftext på stående gravvård från grav 6</label>
+               <figDesc>
+                  Fotografi av relieftext på stående gravvård i sten sedd framifrån.
+               </figDesc>
+               <graphic xml:id="G6.04_raw" url="main/collection/img/G6.03.NEF"/>
+               <graphic xml:id="G6.04_jpg" url="assets/img/documents/670-671_03.JPG"/>
+            </figure>
+         </surface>
+         
+      </facsimile>
+      
+      <text>
+         <body>
+            <div type="relieftext">
+               <ab>CARL FORSBERGS</ab>
+               <ab>FAMILJEGRAV</ab>
+            </div>
+            
+         </body>
+      </text>
+   </TEI> 
   
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Lilla Malma kyrkogård, grav 7</title>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Borås Högskola</publisher>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno>G7</idno>
+                     <altIdentifier>
+                        <idno type="gravnummer">723-724</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc form="PLB">
+                        <supportDesc>
+                           <support>
+                              <material>sten</material>
+                              <p> Grav med stående gravvård och gravlinje i sten </p>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               
+            </sourceDesc>
+         </fileDesc>
+         
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person corresp="#per-bro">
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
+      </teiHeader>
+      
+      <facsimile>
+         
+         <surface xml:id="G7.01">
+            <figure>
+               <label>Grav 7 framifrån</label>
+               <figDesc>
+                  Fotografi av stående gravvård och gravlinje i sten sedd framifrån
+               </figDesc>
+               <graphic xml:id="G7.01_raw" url="main/collection/img/G7.01.NEF"/>
+               <graphic xml:id="G7.01_jpg" url="assets/img/documents/723-724_01.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G7.02">
+            <figure>
+               <label>Stående gravvård från grav 7</label>
+               <figDesc>
+                  Fotografi av stående gravvård i sten sedd snett framifrån.
+               </figDesc>
+               <graphic xml:id="G7.02_raw" url="main/collection/img/G7.02.NEF"/>
+               <graphic xml:id="G7.02_jpg" url="assets/img/documents/723-724_02.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G7.03">
+            <figure>
+               <label>Inskription på stående gravvård från grav 7</label>
+               <figDesc>
+                  Fotografi av inskription på stående gravvård i sten sedd framifrån.
+               </figDesc>
+               <graphic xml:id="G7.03_raw" url="main/collection/img/G7.03.NEF"/>
+               <graphic xml:id="G7.03_jpg" url="assets/img/documents/723-724_03.JPG"/>
+            </figure>
+         </surface>
+         
+         
+      </facsimile>
+      
+      <text>
+         <body>
+            <div type="relieftext">
+               <ab>FOLKSKOLLÄRAREN</ab>
+               <ab>OCH</ab>
+               <ab>ORGANISTEN</ab>
+               <ab>PER AUGUST BROLIN</ab>
+               <ab>1832-1901</ab>
+               <ab>CAROLINA BROLIN</ab>
+               <ab>född ELVGREN 1843-1904</ab>
+            </div>
+            
+         </body>
+      </text>
+   </TEI> 
+   
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Lilla Malma kyrkogård, grav 8</title>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Borås Högskola</publisher>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno>G8</idno>
+                     <altIdentifier>
+                        <idno type="gravnummer">912-913</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc form="PLB">
+                        <supportDesc>
+                           <support>
+                              <material>sten</material>
+                              <p> Grav med en stående och en liggande garvvård i sten </p>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               
+            </sourceDesc>
+         </fileDesc>
+         
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person corresp="#gus-jäd">
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
+      </teiHeader>
+      
+      <facsimile>
+         
+         <surface xml:id="G8.01">
+            <figure>
+               <label>Grav 8 framifrån</label>
+               <figDesc>
+                  Fotografi av en stående och en liggande gravvård i sten sedd framifrån.
+               </figDesc>
+               <graphic xml:id="G8.01_raw" url="main/collection/img/G8.01.NEF"/>
+               <graphic xml:id="G8.01_jpg" url="assets/img/documents/912-913_01.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G8.02">
+            <figure>
+               <label>Inskription på stående gravvård från grav 7</label>
+               <figDesc>
+                  Fotografi av inkription på stående gravvård i sten sedd framifrån.
+               </figDesc>
+               <graphic xml:id="G8.02_raw" url="main/collection/img/G8.02.NEF"/>
+               <graphic xml:id="G8.02_jpg" url="assets/img/documents/912-913_02.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G8.03">
+            <figure>
+               <label>Stående gravvård, från grav 8, snett framifrån</label>
+               <figDesc>
+                  Fotografi av stående gravvård i sten sedd snett framifrån.
+               </figDesc>
+               <graphic xml:id="G8.03_raw" url="main/collection/img/G8.03.NEF"/>
+               <graphic xml:id="G8.03_jpg" url="assets/img/documents/912-913_03.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G8.04">
+            <figure>
+               <label>Liggande gravvård från grav 8</label>
+               <figDesc>
+                  Fotografi av liggande gravvård i sten sedd ovanifrån.
+               </figDesc>
+               <graphic xml:id="G8.04_raw" url="main/collection/img/G8.04.NEF"/>
+               <graphic xml:id="G8.04_jpg" url="assets/img/documents/912-913_04.JPG"/>
+            </figure>
+         </surface>
+         
+         
+      </facsimile>
+      
+      <text>
+         <body>
+            <div type="Inskription">
+               <head>Stående gravvård</head>
+               <ab>JÄDERHOLMS</ab>
+               <ab>GRAF</ab>
+            </div>
+            
+            <div type="Relieftext">
+               <head>Liggande gravvård</head>
+               <ab>Professorn</ab>
+               <ab>G.A.JAEDERHOLM</ab>
+               <ab>1882-1936</ab>
+               <ab>sonen</ab>
+               <ab>LARS</ab>
+               <ab>1915-1920</ab>
+            </div>
+            
+         </body>
+      </text>
+   </TEI> 
+   
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Lilla Malma kyrkogård, grav 8</title>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Borås Högskola</publisher>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno>G9</idno>
+                     <altIdentifier>
+                        <idno type="gravnummer">1018-1031</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc form="PLB">
+                        <supportDesc>
+                           <support>
+                              <material>sten</material>
+                              <p> Grav med en mur, en stående och två liggande garvvårdar i sten </p>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               
+            </sourceDesc>
+         </fileDesc>
+         
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person corresp="#militärgraven">
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
+      </teiHeader>
+      
+      <facsimile>
+         
+         <surface xml:id="G9.01">
+            <figure>
+               <label>Grav 9 framifrån</label>
+               <figDesc>
+                  Fotografi av en stående och en liggande gravvård samt gravmur i sten sedda framifrån.
+               </figDesc>
+               <graphic xml:id="G9.01_raw" url="main/collection/img/G9.01.NEF"/>
+               <graphic xml:id="G9.01_jpg" url="assets/img/documents/1018-1031_01.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G9.02">
+            <figure>
+               <label>Stående gravvård i sten från grav 9</label>
+               <figDesc>
+                  Fotografi av stående gravvård i sten sedd framifrån.
+               </figDesc>
+               <graphic xml:id="G9.02_raw" url="main/collection/img/G9.02.NEF"/>
+               <graphic xml:id="G9.02_jpg" url="assets/img/documents/1018-1031_02.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G9.03">
+            <figure>
+               <label>Stående gravvård, från grav 9, snett framifrån</label>
+               <figDesc>
+                  Fotografi av stående gravvård i sten sedd snett framifrån.
+               </figDesc>
+               <graphic xml:id="G9.03_raw" url="main/collection/img/G9.03.NEF"/>
+               <graphic xml:id="G9.03_jpg" url="assets/img/documents/1018-1031_3.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G9.04">
+            <figure>
+               <label>Relieftext på stående gravvård i sten från grav 9</label>
+               <figDesc>
+                  Fotografi av relieftext på stående gravvård i sten, sedd framifrån.
+               </figDesc>
+               <graphic xml:id="G9.04_raw" url="main/collection/img/G9.04.NEF"/>
+               <graphic xml:id="G9.04_jpg" url="assets/img/documents/1018-1031_04.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="G9.05">
+            <figure>
+               <label>Liggande gravvård från grav 9</label>
+               <figDesc>
+                  Fotografi av liggande gravvård i sten, sedd ovanifrån.
+               </figDesc>
+               <graphic xml:id="G9.05_raw" url="main/collection/img/G9.05.NEF"/>
+               <graphic xml:id="G9.05_jpg" url="assets/img/documents/1018-1031_05.JPG"/>
+            </figure>
+         </surface>
+         
+      </facsimile>
+      
+      <text>
+         <body>
+            <div type="relieftext">
+               <head>Stående gravvård</head>
+               <ab>KUNGL. SÖDERMANLANDS</ab>
+               <ab>REGEMENTES</ab>
+               <ab>GRAVPLATS</ab>
+               <ab>GRAVEN UNDERHÅLLES</ab>
+               <ab>AV KYRKORÅDET</ab>
+            </div>
+            
+            <div type="relieftext">
+               <head>Liggande gravvård</head>
+               <ab><unclear>ÅDÖ</unclear></ab>
+               <ab>18 2/7 80</ab>
+            </div>
+            
+         </body>
+      </text>
+   </TEI> 
+   
 </teiCorpus>
