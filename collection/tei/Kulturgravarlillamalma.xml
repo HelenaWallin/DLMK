@@ -1075,7 +1075,7 @@
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title>Lilla Malma kyrkogård, grav 8</title>
+               <title>Lilla Malma kyrkogård, grav 9</title>
             </titleStmt>
             <publicationStmt>
                <publisher>Borås Högskola</publisher>
@@ -1192,5 +1192,169 @@
          </body>
       </text>
    </TEI> 
+   
+   
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Lilla Malma kyrkogård, grav 10</title>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Borås Högskola</publisher>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno>GK1</idno>
+                     <altIdentifier>
+                        <idno type="gravnummer">Gravkulle 1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc form="gräskulle">
+                        <supportDesc>
+                           <support>
+                              <material>gräs</material>
+                              <p> Grästäckt gravkulle</p>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               
+            </sourceDesc>
+         </fileDesc>
+         
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person corresp="#per-ban">
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
+      </teiHeader>
+      
+      <facsimile>
+         
+         <surface xml:id="GK1.01">
+            <figure>
+               <label>Gravkulle 1 framifrån</label>
+               <figDesc>
+                  Fotografi av gravkulle 1 sedd framifrån.
+               </figDesc>
+               <graphic xml:id="GK1.01_raw" url="main/collection/img/GK1.01.NEF"/>
+               <graphic xml:id="GK1.01_jpg" url="assets/img/documents/GK1.01.JPG"/>
+            </figure>
+         </surface>
+         
+         <surface xml:id="GK1.02">
+            <figure>
+               <label>Gravkulle 1 från sidan</label>
+               <figDesc>
+                  Fotografi av gravkulle 1 sedd från sidan.
+               </figDesc>
+               <graphic xml:id="GK1.02_raw" url="main/collection/img/GK1.02.NEF"/>
+               <graphic xml:id="GK1.02_jpg" url="assets/img/documents/GK1.02.JPG"/>
+            </figure>
+         </surface>
+      </facsimile>
+   
+   </TEI> 
+   
+   <TEI>
+         <teiHeader>
+            <fileDesc>
+               <titleStmt>
+                  <title>Lilla Malma kyrkogård, grav 10</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Borås Högskola</publisher>
+               </publicationStmt>
+               <sourceDesc>
+                  <msDesc>
+                     <msIdentifier>
+                        <idno>GK1</idno>
+                        <altIdentifier>
+                           <idno type="gravnummer">Minnestavla 1</idno>
+                        </altIdentifier>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc form="minnestavla">
+                           <supportDesc>
+                              <support>
+                                 <material>metall</material>
+                                 <p> Minnestavla fäst på pinne placerad i marken</p>
+                              </support>
+                           </supportDesc>
+                        </objectDesc>
+                     </physDesc>
+                  </msDesc>
+                  
+               </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+               <particDesc>
+                  <listPerson>
+                     <person corresp="#hjert">
+                     </person>
+                  </listPerson>
+               </particDesc>
+            </profileDesc>
+         </teiHeader>
+         
+         <facsimile>
+            
+            <surface xml:id="MT1.01">
+               <figure>
+                  <label>Minnestavla 1 ovanifrån</label>
+                  <figDesc>
+                     Fotografi av relieftext på minnestavla 1 sedd ovanifrån.
+                  </figDesc>
+                  <graphic xml:id="MT1.01_raw" url="main/collection/img/MT1.01.NEF"/>
+                  <graphic xml:id="MT1.01_jpg" url="assets/img/documents/MT1.01.JPG"/>
+               </figure>
+            </surface>
+            
+            <surface xml:id="MT1.02">
+               <figure>
+                  <label>Minnestavla 1 framifrån</label>
+                  <figDesc>
+                     Fotografi av minnestavla 1 sedd framifrån.
+                  </figDesc>
+                  <graphic xml:id="MT1.02_raw" url="main/collection/img/MT1.02.NEF"/>
+                  <graphic xml:id="MT1.02_jpg" url="assets/img/documents/GK1.02.JPG"/>
+               </figure>
+            </surface>
+         </facsimile>
+         
+      
+      <text>
+         <body>
+            <div type="relieftext">
+               <ab>Gustaf Adolf Eriksson "Hjert"</ab>
+               <ab>5 september 1844 - 18 maj 1876 </ab>
+               <ab>Avrättad på Lidamon utanför Malmköping</ab>
+               <ab>den 18 maj 1876 för  morden på ingenjör</ab>
+               <ab>Herman Upmark och hans kusk Johan August Larsson</ab>
+               <ab>Han begick morden tillsammans med sin</ab>
+               <ab>kumpan Conrad Pettersson Lundqvist "Tektor"</ab>
+               <ab>vid Navesta den 31 augusti 1874</ab>
+               <ab>"Tektor" avrättades samma dag vid Stenkumla på Gotland</ab>
+               <ab>Dessa blev de sista offentliga avrättningarna i Sverige</ab>
+            </div>
+            
+            <div type="relieftext">
+               <head>Liggande gravvård</head>
+               <ab><unclear>ÅDÖ</unclear></ab>
+               <ab>18 2/7 80</ab>
+            </div>
+            
+         </body>
+      </text>
+   </TEI> 
+   
    
 </teiCorpus>
