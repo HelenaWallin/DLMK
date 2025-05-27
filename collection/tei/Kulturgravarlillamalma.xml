@@ -102,8 +102,8 @@
                </person>
                
                <person xml:id="gus-öij">
-                  <age></age>
-                  <sex></sex>
+                  <age>70</age>
+                  <sex>man</sex>
                   <persName>
                      <forename>Gustav</forename>
                      <surname>Öijer</surname>
